@@ -17,11 +17,10 @@ const contributed: Link[] = [
 ]
 
 const skills: Link[] = [
+  { name: 'Javascript', value: 'https://www.javascript.com/' },
   { name: 'Typescript', value: 'https://www.typescriptlang.org/' },
   { name: 'NodeJs', value: 'https://nodejs.org/en/' },
   { name: 'VueJs', value: 'https://vuejs.org/' },
-  { name: 'Rust', value: 'https://www.rust-lang.org/' },
-  { name: 'Elixir', value: 'https://elixir-lang.org/' },
   { name: 'Mathematics', value: 'https://en.wikipedia.org/wiki/Mathematics' },
   { name: 'Functional Programming', value: 'https://en.wikipedia.org/wiki/Functional_programming' },
   { name: 'Git', value: 'https://git-scm.com/' },
@@ -29,7 +28,6 @@ const skills: Link[] = [
   { name: 'MongoDB', value: 'https://www.mongodb.com/' },
   { name: 'Redis', value: 'https://redis.io/' },
   { name: 'Docker', value: 'https://www.docker.com/' },
-  { name: 'Vim', value: 'https://www.vim.org/' },
 ]
 </script>
 
