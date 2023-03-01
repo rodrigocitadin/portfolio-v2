@@ -4,12 +4,12 @@
       <h1 class="pt-16 font-bold text-xl">
         Hi, I'm Citadin
       </h1>
-      <p class="w-4/5 mt-4">
-        fullstack developer, focused in backend, mathematics, type systems, and functional programming.
+      <p class="mt-4 w-4/5">
+        backend developer, focused in mathematics, performance, algorithms, type systems, and functional programming.
       </p>
     </div>
-    <div class="mx-8">
-      <ul class="mt-8">
+    <div class="m-8">
+      <ul>
         <li class="mt-2" v-for="link in links" :key="link.name">
           <a
             class="underline decoration-2 decoration-neutral-400 hover:decoration-black"
