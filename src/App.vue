@@ -13,22 +13,23 @@ const books: Link[] = [
 
 const contributed: Link[] = [
   { name: 'elixir4noobs', value: 'https://github.com/aleDsz/elixir4noobs' },
-  { name: 'he4rtoberfest 2022', value: 'https://github.com/he4rt/he4rtoberfest-2022' }
+  { name: 'he4rtoberfest 2022', value: 'https://github.com/he4rt/he4rtoberfest-2022' },
 ]
 
 const skills: Link[] = [
-  { name: 'Typescript', value: '#' },
-  { name: 'NodeJs', value: '#' },
-  { name: 'Vue', value: '#' },
-  { name: 'Rust', value: '#' },
-  { name: 'Elixir', value: '#' },
-  { name: 'Mathematics', value: '#' },
-  { name: 'Functional Programming', value: '#' },
-  { name: 'Git', value: '#' },
-  { name: 'Postgres', value: '#' },
-  { name: 'MongoDB', value: '#' },
-  { name: 'Redis', value: '#' },
-  { name: 'Docker', value: '#' },
+  { name: 'Typescript', value: 'https://www.typescriptlang.org/' },
+  { name: 'NodeJs', value: 'https://nodejs.org/en/' },
+  { name: 'VueJs', value: 'https://vuejs.org/' },
+  { name: 'Rust', value: 'https://www.rust-lang.org/' },
+  { name: 'Elixir', value: 'https://elixir-lang.org/' },
+  { name: 'Mathematics', value: 'https://en.wikipedia.org/wiki/Mathematics' },
+  { name: 'Functional Programming', value: 'https://en.wikipedia.org/wiki/Functional_programming' },
+  { name: 'Git', value: 'https://git-scm.com/' },
+  { name: 'Postgres', value: 'https://www.postgresql.org/' },
+  { name: 'MongoDB', value: 'https://www.mongodb.com/' },
+  { name: 'Redis', value: 'https://redis.io/' },
+  { name: 'Docker', value: 'https://www.docker.com/' },
+  { name: 'Vim', value: 'https://www.vim.org/' },
 ]
 </script>
 
