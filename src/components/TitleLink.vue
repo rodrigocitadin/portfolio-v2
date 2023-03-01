@@ -1,12 +1,18 @@
 <template>
-  <div>
-    <div>
-      <h2>{{ divTitle }}</h2>
+  <div class="max-w-3xl mx-auto mt-8">
+    <div class="mx-8">
+      <h2 class="text-xl font-bold">{{ divTitle }}</h2>
     </div>
-    <div>
+    <div class="mx-8">
       <ul>
         <li v-for="link in links" :key="link.name">
-          <a :href="link.value">{{ link.name }}</a>
+          <a 
+            class="underline decoration-2 decoration-neutral-400 hover:decoration-black"
+            target="_blank"
+            :href="link.value"
+          >
+            {{ link.name }}
+          </a>
         </li>
       </ul>
     </div>

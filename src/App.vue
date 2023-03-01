@@ -11,18 +11,14 @@ const links: Link[] = [
 </script>
 
 <template>
-  <div class="bg-amber-50 h-screen text-neutral-900">
+  <div class="bg-neutral-50 text-neutral-800 font-light h-screen text-lg">
     <header>
       <AboutMe />
     </header>
     <main>
       <TitleLink divTitle="books I've read" :links="links" />
+      <TitleLink divTitle="writings" :links="links" />
+      <TitleLink divTitle="skills" :links="links" />
     </main>
   </div>
 </template>
-
-<style>
-* {
-    border: 1px solid red;
-  }
-</style>
