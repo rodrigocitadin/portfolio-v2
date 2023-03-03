@@ -19,6 +19,7 @@ const contributed: Link[] = [
 const skills: Link[] = [
   { name: 'Javascript', value: 'https://www.javascript.com/' },
   { name: 'Typescript', value: 'https://www.typescriptlang.org/' },
+  { name: 'Rust', value: 'https://www.rust-lang.org/' },
   { name: 'NodeJs', value: 'https://nodejs.org/en/' },
   { name: 'VueJs', value: 'https://vuejs.org/' },
   { name: 'Mathematics', value: 'https://en.wikipedia.org/wiki/Mathematics' },
